@@ -23,7 +23,7 @@ from digi.xbee.exception import XBeeException
 # TODO: Replace with the serial port where your local module is connected to.
 from digi.xbee.util import utils
 
-PORT = "COM1"
+PORT = "/dev/ttyUSB0"
 # TODO: Replace with the baud rate of your local module.
 BAUD_RATE = 9600
 # TODO: Replace with the name of the remote XBee to use. If empty, local is used.

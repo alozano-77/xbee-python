@@ -18,7 +18,7 @@ from digi.xbee.devices import XBeeDevice
 from digi.xbee.exception import OperationNotSupportedException, XBeeException, RecoveryException
 
 # TODO: Replace with the serial port where your local module is connected to.
-PORT = "COM1"
+PORT = "/dev/ttyUSB0"
 # List of baudrates
 BAUD_RATES = (115200, 57600, 38400, 19200, 9600)
 

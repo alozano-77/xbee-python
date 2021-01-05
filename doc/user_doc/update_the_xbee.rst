@@ -182,7 +182,7 @@ The ``update_local_firmware`` method may fail for the following reasons:
 
   [...]
 
-  SERIAL_PORT = "COM1"
+  SERIAL_PORT = "/dev/ttyUSB0"
 
   XML_FIRMWARE_FILE = "my_path/my_firmware.xml"
   XBEE_FIRMWARE_FILE = "my_path/my_firmware.gbl"

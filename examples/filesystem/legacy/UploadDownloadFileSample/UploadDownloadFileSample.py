@@ -21,7 +21,7 @@ from digi.xbee.exception import XBeeException
 
 
 # TODO: Replace with the serial port where your local module is connected to.
-PORT = "COM1"
+PORT = "/dev/ttyUSB0"
 # TODO: Replace with the baud rate of your local module.
 BAUD_RATE = 9600
 # TODO: Replace with the location of the file to upload.
